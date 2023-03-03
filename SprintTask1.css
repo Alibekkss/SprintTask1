@@ -1,0 +1,50 @@
+
+.navBar{
+    display: flex;
+    background-color: darkred;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a{
+
+    color: white;
+    text-decoration: none;
+}
+.main-news{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgb(185, 185, 255);
+}
+.image img{
+    width: 650px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-block {
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+}
+.first-block h4{
+    margin-left: 10px;
+}
+.first-block p{
+    margin-left: 10px;
+}
